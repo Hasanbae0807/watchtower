@@ -1,0 +1,26 @@
+{
+  "name": "blackfriday-watchtower",
+  "version": "1.0.0",
+  "description": "BlackFriday Watchtower \u2014 concurrent multi-agent fraud/refund/ledger watchtower on Mozaik (@mozaik-ai/core v4).",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "demo": "tsx src/main.ts --cli",
+    "selftest": "tsx src/main.ts --selftest",
+    "smoke": "tsx src/smoke.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mozaik-ai/core": "^4.2.0",
+    "@types/node": "^26.6.11",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BlackFriday Watchtower — Console</title>
+<style>
+  :root { --bg:#0d1117; --panel:#161b22; --line:#30363d; --txt:#e6edf3; --dim:#8b949e;
+          --red:#f85149; --amber:#d29922; --green:#3fb950; --blue:#58a6ff; --purple:#bc8cff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt); font:14px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; }
+  header { padding:14px 18px 10px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 4px; font-size:19px; letter-spacing:.5px; }
+  .banner { display:inline-block; margin-top:6px; padding:3px 10px; border:1px solid var(--amber);
+            color:var(--amber); border-radius:20px; font-size:12px; font-weight:700; letter-spacing:1px; }
+  .sub { color:var(--dim); font-size:12px; margin-top:6px; }
+  main { display:grid; grid-template-columns: 210px 1fr 380px; gap:12px; padding:12px; }
+  section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:10px 12px; min-height:120px; }
+  h2 { margin:0 0 8px; font-size:12px; text-transform:uppercase; letter-spacing:1.5px; color:var(--dim); }
+  .agent { display:flex; align-items:center; gap:8px; padding:5px 0; border-bottom:1px dashed #21262d; }
+  .agent:last-child { border-bottom:none; }
+  .dot { width:9px; height:9px; border-radius:50%; background:#484f58; flex:none; transition:background .2s; }
+  .dot.live { background:var(--green); box-shadow:0 0 8px var(--green); }
+  .agent small { color:var(--dim); margin-left:auto; text-align:right; }
+  #guard { margin:12px 12px 0; padding:10px 14px; border-radius:8px; border:1px solid var(--line);
+           background:var(--panel); font-weight:700; letter-spacing:.4px; min-height:42px; }
+  #guard.blocked { border-color:var(--red); color:#ffb4ae; background:#2a1215; }
+  #guard.allowed { border-color:var(--green); color:#a7f3b9; background:#0f2417; }
+  #guard.escalated { border-color:var(--amber); color:#ffe1a8; background:#2a2008; }
+  #feed, #audit { height:520px; overflow-y:auto; display:flex; flex-direction:column; gap:4px; }
+  .ev { padding:5px 8px; border-left:3px solid #484f58; background:#0d1117; border-radius:0 4px 4px 0; word-break:break-word; }
+  .ev .who { color:var(--dim); font-size:11px; }
+  .ev.flag { border-color:var(--amber); } .ev.hold, .ev.blocked { border-color:var(--red); }
+  .ev.allowed, .ev.executed { border-color:var(--green); } .ev.evidence { border-color:var(--blue); }
+  .ev.escalated { border-color:var(--amber); background:#241c07; } .ev.ledger { border-color:#484f58; }
+  .ev.void { border-color:var(--purple); }
+  table { width:100%; border-collapse:collapse; font-size:12px; }
+  td, th { padding:3px 4px; border-bottom:1px solid #21262d; text-align:left; }
+  td.amt { text-align:right; } .neg { color:var(--red); } .pos { color:var(--green); }
+  #balance { font-size:20px; font-weight:700; margin:2px 0 8px; }
+  .card { border:1px solid var(--amber); border-radius:8px; padding:10px; margin-bottom:10px; background:#241c07; }
+  .card button { font:inherit; font-weight:700; border-radius:6px; border:1px solid var(--line);
+                 padding:6px 14px; cursor:pointer; margin-right:8px; }
+  .card .ok { background:var(--green); color:#04150a; border-color:var(--green); }
+  .card .no { background:transparent; color:var(--red); border-color:var(--red); }
+  .stat { display:flex; justify-content:space-between; padding:2px 0; color:var(--dim); }
+  .stat b { color:var(--txt); }
+  @media (max-width: 1000px) { main { grid-template-columns: 1fr; } #feed, #audit { height:300px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>🗼 BlackFriday Watchtower</h1>
+  <span class="banner">SYNTHETIC DATA — NO REAL MONEY, NO REAL CUSTOMERS</span>
+  <div class="sub">Six Mozaik participants share one event bus and one ledger. State-changing actions
+    (refunds, voids) pass an interception gate that demands <b>2 independent confirmed evidence sources</b>.
+    This is an operations demo — <b>not financial advice</b>.</div>
+</header>
+
+<div id="guard">Guard: waiting for the first gated action…</div>
+
+<main>
+  <section>
+    <h2>Agent roster</h2>
+    <div id="roster"></div>
+    <h2 style="margin-top:14px">Counters</h2>
+    <div id="counters"></div>
+  </section>
+
+  <section>
+    <h2>Live room feed (Scribe audit trail)</h2>
+    <div id="feed"></div>
+  </section>
+
+  <section>
+    <h2>Escalations — human decision</h2>
+    <div id="escalations"><div class="sub">No pending escalations.</div></div>
+    <h2 style="margin-top:14px">Ledger</h2>
+    <div id="balance">$0.00</div>
+    <div style="max-height:300px; overflow-y:auto">
+      <table><thead><tr><th>Line</th><th>Kind</th><th>Order</th><th style="text-align:right">Amount</th><th style="text-align:right">Balance</th></tr></thead>
+      <tbody id="ledger"></tbody></table>
+    </div>
+  </section>
+</main>
+
+<script>
+const AGENTS = ['OrderFeed','Watchtower','LedgerKeeper','RefundClerk','Auditor','Scribe','Operator'];
+const rosterEl = document.getElementById('roster');
+rosterEl.innerHTML = AGENTS.map(a =>
+  `<div class="agent"><span class="dot" id="dot-${a}"></span>${a}<small id="cnt-${a}">0 events</small></div>`).join('');
+const counts = {};
+const feed = document.getElementById('feed');
+const guard = document.getElementById('guard');
+
+function classify(e) {
+  const t = (e.payload && e.payload.text) || '';
+  if (e.type === 'guard.blocked' || t.startsWith('BLOCKED:')) return 'blocked';
+  if (e.type === 'guard.escalated' || t.startsWith('ESCALATED:')) return 'escalated';
+  if (e.type === 'guard.allowed' || t.startsWith('ALLOWED:')) return 'allowed';
+  if (e.type === 'order.flagged' || t.startsWith('FLAG:')) return 'flag';
+  if (e.type === 'audit.hold' || t.startsWith('HOLD:')) return 'hold';
+  if (e.type === 'evidence.confirmed' || t.startsWith('EVIDENCE:')) return 'evidence';
+  if (e.type === 'refund.executed') return 'executed';
+  if (e.type === 'order.voided' || t.startsWith('VOID:')) return 'void';
+  if (e.type === 'ledger.updated') return 'ledger';
+  return '';
+}
+
+const es = new EventSource('/events');
+es.onmessage = (msg) => {
+  const e = JSON.parse(msg.data);
+  const cls = classify(e);
+  if (e.producer && counts[e.producer] !== undefined || AGENTS.includes(e.producer)) {
+    counts[e.producer] = (counts[e.producer] || 0) + 1;
+    const dot = document.getElementById('dot-' + e.producer);
+    if (dot) { dot.classList.add('live'); setTimeout(() => dot.classList.remove('live'), 900); }
+    const cnt = document.getElementById('cnt-' + e.producer);
+    if (cnt) cnt.textContent = counts[e.producer] + ' events';
+  }
+  const text = (e.payload && e.payload.text) || e.type;
+  const div = document.createElement('div');
+  div.className = 'ev ' + cls;
+  div.innerHTML = `<span class="who">${e.at ? e.at.slice(11,19) : ''} · ${e.producer}</span><br>${text.replace(/</g,'&lt;')}`;
+  feed.prepend(div);
+  while (feed.children.length > 220) feed.lastChild.remove();
+  if (cls === 'blocked' || cls === 'allowed' || cls === 'escalated') {
+    guard.className = cls;
+    guard.textContent = '⚖️ EvidenceGate — ' + text;
+  }
+};
+
+async function refreshState() {
+  try {
+    const s = await (await fetch('/state')).json();
+    document.getElementById('balance').textContent = '$' + s.balance.toLocaleString('en-US', {minimumFractionDigits: 2});
+    document.getElementById('ledger').innerHTML = s.ledger.slice(-14).reverse().map(l =>
+      `<tr><td>${l.id}</td><td>${l.kind}</td><td>${l.orderId}</td>` +
+      `<td class="amt ${l.amount < 0 ? 'neg' : 'pos'}">${l.amount.toFixed(2)}</td>` +
+      `<td class="amt">${l.balanceAfter.toFixed(2)}</td></tr>`).join('');
+    const c = s.counters;
+    document.getElementById('counters').innerHTML = [
+      ['orders received', c.ordersReceived], ['orders flagged', c.ordersFlagged],
+      ['audit holds', c.holds], ['audit passes', c.auditPasses],
+      ['guard BLOCKED', c.guardBlocked], ['guard ESCALATED', c.guardEscalated], ['guard ALLOWED', c.guardAllowed],
+      ['refunds executed', c.refundsExecuted], ['voids executed', c.voidsExecuted],
+    ].map(([k, v]) => `<div class="stat"><span>${k}</span><b>${v}</b></div>`).join('');
+    const esc = s.proposals.filter(p => p.status === 'escalated');
+    const box = document.getElementById('escalations');
+    if (esc.length === 0) { box.innerHTML = '<div class="sub">No pending escalations.</div>'; }
+    else {
+      box.innerHTML = esc.map(p =>
+        `<div class="card"><b>Refund $${p.amount.toFixed(2)}</b> for ${p.orderId}<br>` +
+        `<span class="sub">${p.reason} (source: request ${p.requestId})</span><br><br>` +
+        `<button class="ok" onclick="decide('${p.orderId}', true)">Approve</button>` +
+        `<button class="no" onclick="decide('${p.orderId}', false)">Reject</button></div>`).join('');
+    }
+  } catch (_) {}
+}
+async function decide(orderId, approved) {
+  await fetch('/decide', { method: 'POST', headers: {'content-type': 'application/json'},
+    body: JSON.stringify({ orderId, approved }) });
+  refreshState();
+}
+setInterval(refreshState, 1500);
+refreshState();
+</script>
+</body>
+</html>

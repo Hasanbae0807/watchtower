@@ -1,0 +1,22 @@
+[
+  {
+    "id": "R1",
+    "name": "VELOCITY",
+    "description": "4 or more orders from the same device within a 10-minute window. Detail cites the order ids counted."
+  },
+  {
+    "id": "R2",
+    "name": "ADDRESS_MISMATCH",
+    "description": "Billing city differs from shipping city. Weak signal on its own (could be a gift) — the Auditor requires corroboration."
+  },
+  {
+    "id": "R3",
+    "name": "HIGH_VALUE_NEW_CUSTOMER",
+    "description": "Order total above $900 from a customer with 0 prior orders. Hard signal: backed by the customer history fields on the order itself."
+  },
+  {
+    "id": "R4",
+    "name": "CHARGEBACK_HISTORY",
+    "description": "Customer has 1 or more prior chargebacks in the synthetic history. Hard signal: backed by the customer history fields on the order itself."
+  }
+]

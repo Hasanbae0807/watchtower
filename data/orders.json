@@ -1,0 +1,7286 @@
+[
+  {
+    "id": "ORD-1001",
+    "ts": "2026-11-27T00:06:48.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Andre Nugroho",
+    "email": "andre.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1030",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1002",
+    "ts": "2026-11-27T00:07:22.000Z",
+    "customerId": "CUS-144",
+    "customerName": "Zahra Firmansyah",
+    "email": "zahra.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "card-visa",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1299",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1003",
+    "ts": "2026-11-27T00:08:16.000Z",
+    "customerId": "CUS-127",
+    "customerName": "Alya Wibowo",
+    "email": "alya.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1370",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1004",
+    "ts": "2026-11-27T00:09:56.000Z",
+    "customerId": "CUS-101",
+    "customerName": "Zahra Nugroho",
+    "email": "zahra.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1043",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1005",
+    "ts": "2026-11-27T00:12:13.000Z",
+    "customerId": "CUS-129",
+    "customerName": "Yoga Handayani",
+    "email": "yoga.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1076",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1006",
+    "ts": "2026-11-27T00:13:15.000Z",
+    "customerId": "CUS-100",
+    "customerName": "Vina Nugroho",
+    "email": "vina.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 204,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Semarang",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1139",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1007",
+    "ts": "2026-11-27T00:15:11.000Z",
+    "customerId": "CUS-132",
+    "customerName": "Utami Kusuma",
+    "email": "utami.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 288,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1171",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1008",
+    "ts": "2026-11-27T00:17:29.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Lutfi Anggraini",
+    "email": "lutfi.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 140,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1314",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1009",
+    "ts": "2026-11-27T00:19:16.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Nanda Pratama",
+    "email": "nanda.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1312",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1010",
+    "ts": "2026-11-27T00:19:48.000Z",
+    "customerId": "CUS-VEL",
+    "customerName": "Rudi Hartono",
+    "email": "rudi.hartono@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-VEL1",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1011",
+    "ts": "2026-11-27T00:20:38.000Z",
+    "customerId": "CUS-VEL",
+    "customerName": "Rudi Hartono",
+    "email": "rudi.hartono@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-VEL1",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1012",
+    "ts": "2026-11-27T00:21:29.000Z",
+    "customerId": "CUS-VEL",
+    "customerName": "Rudi Hartono",
+    "email": "rudi.hartono@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 299,
+    "paymentMethod": "card-amex",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-VEL1",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1013",
+    "ts": "2026-11-27T00:22:13.000Z",
+    "customerId": "CUS-VEL",
+    "customerName": "Rudi Hartono",
+    "email": "rudi.hartono@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "card-amex",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-VEL1",
+    "priorOrders": 9,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1014",
+    "ts": "2026-11-27T00:24:13.000Z",
+    "customerId": "CUS-VEL",
+    "customerName": "Rudi Hartono",
+    "email": "rudi.hartono@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-VEL1",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1015",
+    "ts": "2026-11-27T00:26:35.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Dewi Maharani",
+    "email": "dewi.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1242",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1016",
+    "ts": "2026-11-27T00:27:58.000Z",
+    "customerId": "CUS-118",
+    "customerName": "Nanda Kusuma",
+    "email": "nanda.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1169",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1017",
+    "ts": "2026-11-27T00:29:10.000Z",
+    "customerId": "CUS-156",
+    "customerName": "Andre Utama",
+    "email": "andre.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 238,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1077",
+    "priorOrders": 3,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1018",
+    "ts": "2026-11-27T00:30:22.000Z",
+    "customerId": "CUS-157",
+    "customerName": "Fitri Lestari",
+    "email": "fitri.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-visa",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1197",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1019",
+    "ts": "2026-11-27T00:32:07.000Z",
+    "customerId": "CUS-155",
+    "customerName": "Candra Firmansyah",
+    "email": "candra.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1378",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1020",
+    "ts": "2026-11-27T00:34:29.000Z",
+    "customerId": "CUS-119",
+    "customerName": "Nanda Sari",
+    "email": "nanda.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 1232,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1284",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1021",
+    "ts": "2026-11-27T00:35:11.000Z",
+    "customerId": "CUS-116",
+    "customerName": "Utami Kusuma",
+    "email": "utami.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 408,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1350",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1022",
+    "ts": "2026-11-27T00:37:06.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Lutfi Wulandari",
+    "email": "lutfi.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1219",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1023",
+    "ts": "2026-11-27T00:38:50.000Z",
+    "customerId": "CUS-134",
+    "customerName": "Sari Putri",
+    "email": "sari.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "card-visa",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1039",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1024",
+    "ts": "2026-11-27T00:39:25.000Z",
+    "customerId": "CUS-124",
+    "customerName": "Fajar Sari",
+    "email": "fajar.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 299,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1216",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1025",
+    "ts": "2026-11-27T00:39:55.000Z",
+    "customerId": "CUS-149",
+    "customerName": "Maya Sari",
+    "email": "maya.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1196",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1026",
+    "ts": "2026-11-27T00:41:30.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Alya Anggraini",
+    "email": "alya.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1043",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1027",
+    "ts": "2026-11-27T00:42:51.000Z",
+    "customerId": "CUS-104",
+    "customerName": "Nanda Lestari",
+    "email": "nanda.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1146",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1028",
+    "ts": "2026-11-27T00:44:28.000Z",
+    "customerId": "CUS-106",
+    "customerName": "Maya Ramadhan",
+    "email": "maya.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1023",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1029",
+    "ts": "2026-11-27T00:46:17.000Z",
+    "customerId": "CUS-151",
+    "customerName": "Candra Lestari",
+    "email": "candra.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 254,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1356",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1030",
+    "ts": "2026-11-27T00:48:09.000Z",
+    "customerId": "CUS-118",
+    "customerName": "Zahra Utama",
+    "email": "zahra.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      },
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 644,
+    "paymentMethod": "card-visa",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1133",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1031",
+    "ts": "2026-11-27T00:50:08.000Z",
+    "customerId": "CUS-108",
+    "customerName": "Lutfi Ramadhan",
+    "email": "lutfi.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1260",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1032",
+    "ts": "2026-11-27T00:50:44.000Z",
+    "customerId": "CUS-159",
+    "customerName": "Gita Setiawan",
+    "email": "gita.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1030",
+    "priorOrders": 3,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1033",
+    "ts": "2026-11-27T00:51:40.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Sari Handayani",
+    "email": "sari.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1342",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1034",
+    "ts": "2026-11-27T00:52:36.000Z",
+    "customerId": "CUS-137",
+    "customerName": "Fajar Kusuma",
+    "email": "fajar.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1291",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1035",
+    "ts": "2026-11-27T00:54:14.000Z",
+    "customerId": "CUS-117",
+    "customerName": "Putri Saputra",
+    "email": "putri.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-amex",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1245",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1036",
+    "ts": "2026-11-27T00:56:00.000Z",
+    "customerId": "CUS-155",
+    "customerName": "Utami Pratama",
+    "email": "utami.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 374,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1099",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1037",
+    "ts": "2026-11-27T00:56:24.000Z",
+    "customerId": "CUS-121",
+    "customerName": "Citra Sari",
+    "email": "citra.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 408,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1113",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1038",
+    "ts": "2026-11-27T00:58:22.000Z",
+    "customerId": "CUS-116",
+    "customerName": "Joko Kusuma",
+    "email": "joko.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1039",
+    "ts": "2026-11-27T00:58:52.000Z",
+    "customerId": "CUS-139",
+    "customerName": "Oscar Pratama",
+    "email": "oscar.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 424,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1266",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1040",
+    "ts": "2026-11-27T01:00:32.000Z",
+    "customerId": "CUS-121",
+    "customerName": "Dimas Lestari",
+    "email": "dimas.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 418,
+    "paymentMethod": "card-amex",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1027",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1041",
+    "ts": "2026-11-27T01:02:00.000Z",
+    "customerId": "CUS-128",
+    "customerName": "Intan Pratama",
+    "email": "intan.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 468,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1000",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1042",
+    "ts": "2026-11-27T01:04:18.000Z",
+    "customerId": "CUS-100",
+    "customerName": "Raka Firmansyah",
+    "email": "raka.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 1028,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1285",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1043",
+    "ts": "2026-11-27T01:04:47.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Erlang Firmansyah",
+    "email": "erlang.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-visa",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1294",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1044",
+    "ts": "2026-11-27T01:05:39.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Joko Nugraha",
+    "email": "joko.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      },
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1118",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1045",
+    "ts": "2026-11-27T01:06:09.000Z",
+    "customerId": "CUS-117",
+    "customerName": "Utami Wibowo",
+    "email": "utami.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1073",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1046",
+    "ts": "2026-11-27T01:07:38.000Z",
+    "customerId": "CUS-106",
+    "customerName": "Erlang Sari",
+    "email": "erlang.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1344",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1047",
+    "ts": "2026-11-27T01:08:19.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Bella Nugroho",
+    "email": "bella.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-amex",
+    "billingCity": "Denpasar",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1348",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1048",
+    "ts": "2026-11-27T01:08:52.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Andre Handayani",
+    "email": "andre.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1005",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1049",
+    "ts": "2026-11-27T01:11:13.000Z",
+    "customerId": "CUS-138",
+    "customerName": "Zahra Kusuma",
+    "email": "zahra.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1223",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1050",
+    "ts": "2026-11-27T01:12:10.000Z",
+    "customerId": "CUS-144",
+    "customerName": "Raka Utama",
+    "email": "raka.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 628,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1378",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1051",
+    "ts": "2026-11-27T01:13:24.000Z",
+    "customerId": "CUS-100",
+    "customerName": "Lutfi Handayani",
+    "email": "lutfi.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1360",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1052",
+    "ts": "2026-11-27T01:14:39.000Z",
+    "customerId": "CUS-108",
+    "customerName": "Kirana Nugroho",
+    "email": "kirana.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 238,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1372",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1053",
+    "ts": "2026-11-27T01:16:27.000Z",
+    "customerId": "CUS-149",
+    "customerName": "Candra Putri",
+    "email": "candra.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 608,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1123",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1054",
+    "ts": "2026-11-27T01:17:16.000Z",
+    "customerId": "CUS-147",
+    "customerName": "Fajar Putri",
+    "email": "fajar.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-amex",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1260",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1055",
+    "ts": "2026-11-27T01:19:40.000Z",
+    "customerId": "CUS-118",
+    "customerName": "Erlang Firmansyah",
+    "email": "erlang.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 404,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1256",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1056",
+    "ts": "2026-11-27T01:20:29.000Z",
+    "customerId": "CUS-151",
+    "customerName": "Kirana Pratama",
+    "email": "kirana.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1012",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1057",
+    "ts": "2026-11-27T01:21:59.000Z",
+    "customerId": "CUS-140",
+    "customerName": "Raka Maharani",
+    "email": "raka.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1382",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1058",
+    "ts": "2026-11-27T01:23:02.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Oscar Anggraini",
+    "email": "oscar.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1056",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1059",
+    "ts": "2026-11-27T01:24:01.000Z",
+    "customerId": "CUS-148",
+    "customerName": "Dimas Nugraha",
+    "email": "dimas.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 318,
+    "paymentMethod": "card-amex",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1252",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1060",
+    "ts": "2026-11-27T01:25:20.000Z",
+    "customerId": "CUS-128",
+    "customerName": "Candra Wibowo",
+    "email": "candra.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1198",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1061",
+    "ts": "2026-11-27T01:25:44.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Teguh Maharani",
+    "email": "teguh.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 377,
+    "paymentMethod": "card-visa",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1000",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1062",
+    "ts": "2026-11-27T01:27:28.000Z",
+    "customerId": "CUS-116",
+    "customerName": "Putri Wibowo",
+    "email": "putri.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 419,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1074",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1063",
+    "ts": "2026-11-27T01:28:26.000Z",
+    "customerId": "CUS-142",
+    "customerName": "Andre Rahmawati",
+    "email": "andre.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1031",
+    "priorOrders": 1,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1064",
+    "ts": "2026-11-27T01:29:06.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Wahyu Wibowo",
+    "email": "wahyu.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1187",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1065",
+    "ts": "2026-11-27T01:29:40.000Z",
+    "customerId": "CUS-155",
+    "customerName": "Kirana Sari",
+    "email": "kirana.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-visa",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1149",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1066",
+    "ts": "2026-11-27T01:31:56.000Z",
+    "customerId": "CUS-102",
+    "customerName": "Fitri Ramadhan",
+    "email": "fitri.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 368,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1077",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1067",
+    "ts": "2026-11-27T01:33:42.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Zahra Setiawan",
+    "email": "zahra.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 95,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1175",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1068",
+    "ts": "2026-11-27T01:35:55.000Z",
+    "customerId": "CUS-134",
+    "customerName": "Teguh Putri",
+    "email": "teguh.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1279",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1069",
+    "ts": "2026-11-27T01:37:03.000Z",
+    "customerId": "CUS-147",
+    "customerName": "Fitri Sari",
+    "email": "fitri.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1331",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1070",
+    "ts": "2026-11-27T01:39:10.000Z",
+    "customerId": "CUS-108",
+    "customerName": "Alya Nugroho",
+    "email": "alya.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1068",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1071",
+    "ts": "2026-11-27T01:41:33.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Fitri Kusuma",
+    "email": "fitri.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      },
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 597,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1388",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1072",
+    "ts": "2026-11-27T01:44:00.000Z",
+    "customerId": "CUS-126",
+    "customerName": "Joko Rahmawati",
+    "email": "joko.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1309",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1073",
+    "ts": "2026-11-27T01:44:37.000Z",
+    "customerId": "CUS-156",
+    "customerName": "Dimas Nugraha",
+    "email": "dimas.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1276",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1074",
+    "ts": "2026-11-27T01:47:06.000Z",
+    "customerId": "CUS-131",
+    "customerName": "Raka Ramadhan",
+    "email": "raka.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1031",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1075",
+    "ts": "2026-11-27T01:48:03.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Nanda Pratama",
+    "email": "nanda.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1076",
+    "ts": "2026-11-27T01:49:53.000Z",
+    "customerId": "CUS-104",
+    "customerName": "Raka Hidayat",
+    "email": "raka.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 583,
+    "paymentMethod": "card-visa",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1371",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1077",
+    "ts": "2026-11-27T01:50:48.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Andre Kusuma",
+    "email": "andre.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1127",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1078",
+    "ts": "2026-11-27T01:51:08.000Z",
+    "customerId": "CUS-112",
+    "customerName": "Yoga Anggraini",
+    "email": "yoga.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1209",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1079",
+    "ts": "2026-11-27T01:52:44.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Nanda Wulandari",
+    "email": "nanda.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1280",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1080",
+    "ts": "2026-11-27T01:54:06.000Z",
+    "customerId": "CUS-124",
+    "customerName": "Nanda Wulandari",
+    "email": "nanda.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1113",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1081",
+    "ts": "2026-11-27T01:55:45.000Z",
+    "customerId": "CUS-145",
+    "customerName": "Oscar Putri",
+    "email": "oscar.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-visa",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1278",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1082",
+    "ts": "2026-11-27T01:56:18.000Z",
+    "customerId": "CUS-119",
+    "customerName": "Gita Ramadhan",
+    "email": "gita.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1148",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1083",
+    "ts": "2026-11-27T01:57:26.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Yoga Nugroho",
+    "email": "yoga.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 1028,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1330",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1084",
+    "ts": "2026-11-27T01:58:20.000Z",
+    "customerId": "CUS-150",
+    "customerName": "Teguh Anggraini",
+    "email": "teguh.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "card-visa",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1055",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1085",
+    "ts": "2026-11-27T02:00:29.000Z",
+    "customerId": "CUS-128",
+    "customerName": "Yoga Maharani",
+    "email": "yoga.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1363",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1086",
+    "ts": "2026-11-27T02:01:09.000Z",
+    "customerId": "CUS-151",
+    "customerName": "Gita Setiawan",
+    "email": "gita.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 563,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1238",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1087",
+    "ts": "2026-11-27T02:02:35.000Z",
+    "customerId": "CUS-124",
+    "customerName": "Erlang Firmansyah",
+    "email": "erlang.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 184,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1342",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1088",
+    "ts": "2026-11-27T02:03:08.000Z",
+    "customerId": "CUS-153",
+    "customerName": "Lutfi Nugroho",
+    "email": "lutfi.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 153,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1070",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1089",
+    "ts": "2026-11-27T02:03:52.000Z",
+    "customerId": "CUS-119",
+    "customerName": "Oscar Wulandari",
+    "email": "oscar.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "card-visa",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1374",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1090",
+    "ts": "2026-11-27T02:05:29.000Z",
+    "customerId": "CUS-101",
+    "customerName": "Fajar Lestari",
+    "email": "fajar.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 368,
+    "paymentMethod": "card-visa",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1087",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1091",
+    "ts": "2026-11-27T02:07:20.000Z",
+    "customerId": "CUS-126",
+    "customerName": "Sari Lestari",
+    "email": "sari.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1217",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1092",
+    "ts": "2026-11-27T02:08:07.000Z",
+    "customerId": "CUS-126",
+    "customerName": "Bimo Nugroho",
+    "email": "bimo.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1172",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1093",
+    "ts": "2026-11-27T02:08:46.000Z",
+    "customerId": "CUS-115",
+    "customerName": "Gita Utama",
+    "email": "gita.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      },
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 383,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Palembang",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1186",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1094",
+    "ts": "2026-11-27T02:09:08.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Sari Utama",
+    "email": "sari.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1348",
+    "priorOrders": 0,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1095",
+    "ts": "2026-11-27T02:11:11.000Z",
+    "customerId": "CUS-136",
+    "customerName": "Dewi Saputra",
+    "email": "dewi.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "card-amex",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1236",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1096",
+    "ts": "2026-11-27T02:12:10.000Z",
+    "customerId": "CUS-100",
+    "customerName": "Citra Firmansyah",
+    "email": "citra.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 114,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1029",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1097",
+    "ts": "2026-11-27T02:12:40.000Z",
+    "customerId": "CUS-110",
+    "customerName": "Nanda Wulandari",
+    "email": "nanda.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1109",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1098",
+    "ts": "2026-11-27T02:14:41.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Zahra Hidayat",
+    "email": "zahra.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1219",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1099",
+    "ts": "2026-11-27T02:16:54.000Z",
+    "customerId": "CUS-132",
+    "customerName": "Andre Kusuma",
+    "email": "andre.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1142",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1100",
+    "ts": "2026-11-27T02:18:41.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Maya Rahmawati",
+    "email": "maya.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1059",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1101",
+    "ts": "2026-11-27T02:19:52.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Sari Saputra",
+    "email": "sari.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 299,
+    "paymentMethod": "card-visa",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1072",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1102",
+    "ts": "2026-11-27T02:20:42.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Nanda Kusuma",
+    "email": "nanda.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1182",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1103",
+    "ts": "2026-11-27T02:21:55.000Z",
+    "customerId": "CUS-151",
+    "customerName": "Eka Kusuma",
+    "email": "eka.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 374,
+    "paymentMethod": "card-amex",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1150",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1104",
+    "ts": "2026-11-27T02:23:45.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Oscar Wibowo",
+    "email": "oscar.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1221",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1105",
+    "ts": "2026-11-27T02:24:46.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Utami Hidayat",
+    "email": "utami.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "card-amex",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1112",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1106",
+    "ts": "2026-11-27T02:25:32.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Erlang Wulandari",
+    "email": "erlang.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1185",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1107",
+    "ts": "2026-11-27T02:26:28.000Z",
+    "customerId": "CUS-101",
+    "customerName": "Yoga Kusuma",
+    "email": "yoga.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "card-visa",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1138",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1108",
+    "ts": "2026-11-27T02:28:13.000Z",
+    "customerId": "CUS-132",
+    "customerName": "Kirana Putri",
+    "email": "kirana.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-visa",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1031",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1109",
+    "ts": "2026-11-27T02:29:17.000Z",
+    "customerId": "CUS-144",
+    "customerName": "Bimo Kusuma",
+    "email": "bimo.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1263",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1110",
+    "ts": "2026-11-27T02:29:48.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Candra Putri",
+    "email": "candra.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 95,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1224",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1111",
+    "ts": "2026-11-27T02:32:07.000Z",
+    "customerId": "CUS-105",
+    "customerName": "Sari Nugroho",
+    "email": "sari.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "card-amex",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1192",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1112",
+    "ts": "2026-11-27T02:33:08.000Z",
+    "customerId": "CUS-116",
+    "customerName": "Candra Maharani",
+    "email": "candra.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 238,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1113",
+    "ts": "2026-11-27T02:34:35.000Z",
+    "customerId": "CUS-125",
+    "customerName": "Kirana Anggraini",
+    "email": "kirana.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-amex",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1213",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1114",
+    "ts": "2026-11-27T02:35:36.000Z",
+    "customerId": "CUS-112",
+    "customerName": "Teguh Pratama",
+    "email": "teguh.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 119,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1363",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1115",
+    "ts": "2026-11-27T02:36:23.000Z",
+    "customerId": "CUS-143",
+    "customerName": "Bimo Nugraha",
+    "email": "bimo.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1187",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1116",
+    "ts": "2026-11-27T02:37:14.000Z",
+    "customerId": "CUS-105",
+    "customerName": "Yoga Wulandari",
+    "email": "yoga.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 528,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Medan",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1391",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1117",
+    "ts": "2026-11-27T02:37:38.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Maya Utama",
+    "email": "maya.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1393",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1118",
+    "ts": "2026-11-27T02:38:49.000Z",
+    "customerId": "CUS-110",
+    "customerName": "Sari Utama",
+    "email": "sari.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1368",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1119",
+    "ts": "2026-11-27T02:39:10.000Z",
+    "customerId": "CUS-135",
+    "customerName": "Yoga Kusuma",
+    "email": "yoga.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1393",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1120",
+    "ts": "2026-11-27T02:40:31.000Z",
+    "customerId": "CUS-108",
+    "customerName": "Utami Handayani",
+    "email": "utami.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1076",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1121",
+    "ts": "2026-11-27T02:42:57.000Z",
+    "customerId": "CUS-149",
+    "customerName": "Dimas Lestari",
+    "email": "dimas.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 95,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1164",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1122",
+    "ts": "2026-11-27T02:44:28.000Z",
+    "customerId": "CUS-112",
+    "customerName": "Gita Setiawan",
+    "email": "gita.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 158,
+    "paymentMethod": "card-visa",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1009",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1123",
+    "ts": "2026-11-27T02:45:50.000Z",
+    "customerId": "CUS-110",
+    "customerName": "Citra Prasetyo",
+    "email": "citra.prasetyo@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1127",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1124",
+    "ts": "2026-11-27T02:47:04.000Z",
+    "customerId": "CUS-108",
+    "customerName": "Teguh Putri",
+    "email": "teguh.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 1028,
+    "paymentMethod": "card-visa",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1094",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1125",
+    "ts": "2026-11-27T02:47:59.000Z",
+    "customerId": "CUS-138",
+    "customerName": "Fajar Wibowo",
+    "email": "fajar.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 328,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1112",
+    "priorOrders": 5,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1126",
+    "ts": "2026-11-27T02:50:02.000Z",
+    "customerId": "CUS-145",
+    "customerName": "Eka Rahmawati",
+    "email": "eka.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 558,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1183",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1127",
+    "ts": "2026-11-27T02:51:24.000Z",
+    "customerId": "CUS-132",
+    "customerName": "Dewi Hidayat",
+    "email": "dewi.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-visa",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1143",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1128",
+    "ts": "2026-11-27T02:52:40.000Z",
+    "customerId": "CUS-127",
+    "customerName": "Dewi Handayani",
+    "email": "dewi.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 608,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1314",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1129",
+    "ts": "2026-11-27T02:53:59.000Z",
+    "customerId": "CUS-142",
+    "customerName": "Putri Nugraha",
+    "email": "putri.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      },
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 488,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1114",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1130",
+    "ts": "2026-11-27T02:55:24.000Z",
+    "customerId": "CUS-101",
+    "customerName": "Oscar Saputra",
+    "email": "oscar.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1205",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1131",
+    "ts": "2026-11-27T02:57:04.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Hendra Hidayat",
+    "email": "hendra.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 388,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1342",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1132",
+    "ts": "2026-11-27T02:58:40.000Z",
+    "customerId": "CUS-157",
+    "customerName": "Teguh Firmansyah",
+    "email": "teguh.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1120",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1133",
+    "ts": "2026-11-27T03:00:41.000Z",
+    "customerId": "CUS-139",
+    "customerName": "Sari Ramadhan",
+    "email": "sari.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1341",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1134",
+    "ts": "2026-11-27T03:02:21.000Z",
+    "customerId": "CUS-143",
+    "customerName": "Vina Handayani",
+    "email": "vina.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1179",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1135",
+    "ts": "2026-11-27T03:03:43.000Z",
+    "customerId": "CUS-133",
+    "customerName": "Eka Handayani",
+    "email": "eka.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 628,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1070",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1136",
+    "ts": "2026-11-27T03:04:26.000Z",
+    "customerId": "CUS-105",
+    "customerName": "Teguh Pratama",
+    "email": "teguh.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1316",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1137",
+    "ts": "2026-11-27T03:05:40.000Z",
+    "customerId": "CUS-100",
+    "customerName": "Dewi Pratama",
+    "email": "dewi.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1011",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1138",
+    "ts": "2026-11-27T03:06:06.000Z",
+    "customerId": "CUS-126",
+    "customerName": "Candra Firmansyah",
+    "email": "candra.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 548,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1373",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1139",
+    "ts": "2026-11-27T03:06:45.000Z",
+    "customerId": "CUS-139",
+    "customerName": "Candra Kusuma",
+    "email": "candra.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Palembang",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1033",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1140",
+    "ts": "2026-11-27T03:07:22.000Z",
+    "customerId": "CUS-136",
+    "customerName": "Oscar Wulandari",
+    "email": "oscar.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1142",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1141",
+    "ts": "2026-11-27T03:09:30.000Z",
+    "customerId": "CUS-156",
+    "customerName": "Hendra Wulandari",
+    "email": "hendra.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 95,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1216",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1142",
+    "ts": "2026-11-27T03:11:34.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Fitri Pratama",
+    "email": "fitri.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 324,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1113",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1143",
+    "ts": "2026-11-27T03:12:10.000Z",
+    "customerId": "CUS-138",
+    "customerName": "Dewi Utama",
+    "email": "dewi.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1124",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1144",
+    "ts": "2026-11-27T03:14:24.000Z",
+    "customerId": "CUS-112",
+    "customerName": "Nanda Wibowo",
+    "email": "nanda.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1173",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1145",
+    "ts": "2026-11-27T03:14:47.000Z",
+    "customerId": "CUS-119",
+    "customerName": "Oscar Putri",
+    "email": "oscar.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      },
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 558,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1184",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1146",
+    "ts": "2026-11-27T03:16:49.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Raka Lestari",
+    "email": "raka.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1039",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1147",
+    "ts": "2026-11-27T03:18:18.000Z",
+    "customerId": "CUS-134",
+    "customerName": "Fajar Putri",
+    "email": "fajar.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1183",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1148",
+    "ts": "2026-11-27T03:19:04.000Z",
+    "customerId": "CUS-137",
+    "customerName": "Erlang Handayani",
+    "email": "erlang.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 134,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1313",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1149",
+    "ts": "2026-11-27T03:19:46.000Z",
+    "customerId": "CUS-107",
+    "customerName": "Alya Maharani",
+    "email": "alya.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 398,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1150",
+    "ts": "2026-11-27T03:20:19.000Z",
+    "customerId": "CUS-134",
+    "customerName": "Candra Lestari",
+    "email": "candra.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1271",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1151",
+    "ts": "2026-11-27T03:21:38.000Z",
+    "customerId": "CUS-114",
+    "customerName": "Zahra Handayani",
+    "email": "zahra.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1163",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1152",
+    "ts": "2026-11-27T03:23:37.000Z",
+    "customerId": "CUS-104",
+    "customerName": "Bella Handayani",
+    "email": "bella.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      },
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 208,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1058",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1153",
+    "ts": "2026-11-27T03:25:51.000Z",
+    "customerId": "CUS-126",
+    "customerName": "Citra Ramadhan",
+    "email": "citra.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1137",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1154",
+    "ts": "2026-11-27T03:28:02.000Z",
+    "customerId": "CUS-120",
+    "customerName": "Sari Wulandari",
+    "email": "sari.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1390",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1155",
+    "ts": "2026-11-27T03:28:48.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Eka Putri",
+    "email": "eka.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1183",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1156",
+    "ts": "2026-11-27T03:31:08.000Z",
+    "customerId": "CUS-153",
+    "customerName": "Dewi Nugraha",
+    "email": "dewi.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1138",
+    "priorOrders": 1,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1157",
+    "ts": "2026-11-27T03:31:36.000Z",
+    "customerId": "CUS-104",
+    "customerName": "Utami Utama",
+    "email": "utami.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 388,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1373",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1158",
+    "ts": "2026-11-27T03:33:32.000Z",
+    "customerId": "CUS-112",
+    "customerName": "Candra Sari",
+    "email": "candra.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 398,
+    "paymentMethod": "card-amex",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1163",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1159",
+    "ts": "2026-11-27T03:33:58.000Z",
+    "customerId": "CUS-150",
+    "customerName": "Andre Lestari",
+    "email": "andre.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 293,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1014",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1160",
+    "ts": "2026-11-27T03:35:39.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Erlang Wulandari",
+    "email": "erlang.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1344",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1161",
+    "ts": "2026-11-27T03:36:23.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Erlang Ramadhan",
+    "email": "erlang.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1344",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1162",
+    "ts": "2026-11-27T03:37:45.000Z",
+    "customerId": "CUS-115",
+    "customerName": "Lutfi Pratama",
+    "email": "lutfi.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      },
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 618,
+    "paymentMethod": "card-amex",
+    "billingCity": "Makassar",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1231",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1163",
+    "ts": "2026-11-27T03:39:32.000Z",
+    "customerId": "CUS-137",
+    "customerName": "Lutfi Wibowo",
+    "email": "lutfi.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 198,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1255",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1164",
+    "ts": "2026-11-27T03:40:51.000Z",
+    "customerId": "CUS-158",
+    "customerName": "Sari Lestari",
+    "email": "sari.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-amex",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1183",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1165",
+    "ts": "2026-11-27T03:41:45.000Z",
+    "customerId": "CUS-105",
+    "customerName": "Joko Putri",
+    "email": "joko.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 1028,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1080",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1166",
+    "ts": "2026-11-27T03:43:24.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Andre Saputra",
+    "email": "andre.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1382",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1167",
+    "ts": "2026-11-27T03:44:28.000Z",
+    "customerId": "CUS-120",
+    "customerName": "Yoga Prasetyo",
+    "email": "yoga.prasetyo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1396",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1168",
+    "ts": "2026-11-27T03:46:29.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Dewi Maharani",
+    "email": "dewi.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 119,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1109",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1169",
+    "ts": "2026-11-27T03:48:40.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Raka Wibowo",
+    "email": "raka.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 433,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1383",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1170",
+    "ts": "2026-11-27T03:49:08.000Z",
+    "customerId": "CUS-120",
+    "customerName": "Raka Maharani",
+    "email": "raka.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1375",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1171",
+    "ts": "2026-11-27T03:51:17.000Z",
+    "customerId": "CUS-107",
+    "customerName": "Intan Wulandari",
+    "email": "intan.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1274",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1172",
+    "ts": "2026-11-27T03:52:44.000Z",
+    "customerId": "CUS-100",
+    "customerName": "Joko Hidayat",
+    "email": "joko.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 344,
+    "paymentMethod": "card-amex",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1353",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1173",
+    "ts": "2026-11-27T03:55:00.000Z",
+    "customerId": "CUS-142",
+    "customerName": "Yoga Ramadhan",
+    "email": "yoga.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1362",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1174",
+    "ts": "2026-11-27T03:56:06.000Z",
+    "customerId": "CUS-156",
+    "customerName": "Joko Nugraha",
+    "email": "joko.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 558,
+    "paymentMethod": "card-visa",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1224",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1175",
+    "ts": "2026-11-27T03:58:33.000Z",
+    "customerId": "CUS-127",
+    "customerName": "Maya Lestari",
+    "email": "maya.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 508,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1179",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1176",
+    "ts": "2026-11-27T03:58:58.000Z",
+    "customerId": "CUS-132",
+    "customerName": "Gita Anggraini",
+    "email": "gita.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1005",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1177",
+    "ts": "2026-11-27T04:01:24.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Candra Wulandari",
+    "email": "candra.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-visa",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1310",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1178",
+    "ts": "2026-11-27T04:02:32.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Lutfi Maharani",
+    "email": "lutfi.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      },
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 309,
+    "paymentMethod": "card-visa",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1185",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1179",
+    "ts": "2026-11-27T04:03:50.000Z",
+    "customerId": "CUS-151",
+    "customerName": "Putri Setiawan",
+    "email": "putri.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1162",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1180",
+    "ts": "2026-11-27T04:04:28.000Z",
+    "customerId": "CUS-114",
+    "customerName": "Andre Lestari",
+    "email": "andre.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 498,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1308",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1181",
+    "ts": "2026-11-27T04:05:55.000Z",
+    "customerId": "CUS-157",
+    "customerName": "Teguh Utama",
+    "email": "teguh.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 268,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1261",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1182",
+    "ts": "2026-11-27T04:07:07.000Z",
+    "customerId": "CUS-114",
+    "customerName": "Erlang Lestari",
+    "email": "erlang.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 119,
+    "paymentMethod": "card-visa",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1021",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1183",
+    "ts": "2026-11-27T04:09:23.000Z",
+    "customerId": "CUS-149",
+    "customerName": "Dewi Setiawan",
+    "email": "dewi.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-visa",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1206",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1184",
+    "ts": "2026-11-27T04:10:01.000Z",
+    "customerId": "CUS-136",
+    "customerName": "Oscar Utama",
+    "email": "oscar.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 418,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1063",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1185",
+    "ts": "2026-11-27T04:12:12.000Z",
+    "customerId": "CUS-142",
+    "customerName": "Teguh Sari",
+    "email": "teguh.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Jakarta",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1344",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1186",
+    "ts": "2026-11-27T04:14:29.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Kirana Wulandari",
+    "email": "kirana.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1187",
+    "ts": "2026-11-27T04:16:05.000Z",
+    "customerId": "CUS-107",
+    "customerName": "Oscar Rahmawati",
+    "email": "oscar.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 408,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1214",
+    "priorOrders": 5,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1188",
+    "ts": "2026-11-27T04:18:11.000Z",
+    "customerId": "CUS-108",
+    "customerName": "Gita Firmansyah",
+    "email": "gita.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 119,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1133",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1189",
+    "ts": "2026-11-27T04:19:15.000Z",
+    "customerId": "CUS-126",
+    "customerName": "Utami Pratama",
+    "email": "utami.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1209",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1190",
+    "ts": "2026-11-27T04:20:44.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Oscar Wibowo",
+    "email": "oscar.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1362",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1191",
+    "ts": "2026-11-27T04:22:25.000Z",
+    "customerId": "CUS-129",
+    "customerName": "Oscar Anggraini",
+    "email": "oscar.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 148,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1058",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1192",
+    "ts": "2026-11-27T04:22:48.000Z",
+    "customerId": "CUS-134",
+    "customerName": "Bimo Lestari",
+    "email": "bimo.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "card-amex",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1015",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1193",
+    "ts": "2026-11-27T04:23:20.000Z",
+    "customerId": "CUS-136",
+    "customerName": "Dewi Utama",
+    "email": "dewi.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 463,
+    "paymentMethod": "card-amex",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1106",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1194",
+    "ts": "2026-11-27T04:25:44.000Z",
+    "customerId": "CUS-121",
+    "customerName": "Zahra Saputra",
+    "email": "zahra.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1371",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1195",
+    "ts": "2026-11-27T04:27:40.000Z",
+    "customerId": "CUS-138",
+    "customerName": "Hendra Nugroho",
+    "email": "hendra.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1090",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1196",
+    "ts": "2026-11-27T04:28:46.000Z",
+    "customerId": "CUS-104",
+    "customerName": "Erlang Ramadhan",
+    "email": "erlang.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1172",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1197",
+    "ts": "2026-11-27T04:30:19.000Z",
+    "customerId": "CUS-131",
+    "customerName": "Candra Nugroho",
+    "email": "candra.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      },
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 254,
+    "paymentMethod": "card-visa",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1296",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1198",
+    "ts": "2026-11-27T04:31:10.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Oscar Wibowo",
+    "email": "oscar.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1183",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1199",
+    "ts": "2026-11-27T04:32:23.000Z",
+    "customerId": "CUS-150",
+    "customerName": "Alya Kusuma",
+    "email": "alya.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1385",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1200",
+    "ts": "2026-11-27T04:34:45.000Z",
+    "customerId": "CUS-156",
+    "customerName": "Bella Saputra",
+    "email": "bella.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 578,
+    "paymentMethod": "card-visa",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1232",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1201",
+    "ts": "2026-11-27T04:37:07.000Z",
+    "customerId": "CUS-123",
+    "customerName": "Erlang Handayani",
+    "email": "erlang.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      },
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 448,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1040",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1202",
+    "ts": "2026-11-27T04:38:59.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Erlang Nugraha",
+    "email": "erlang.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-amex",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1263",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1203",
+    "ts": "2026-11-27T04:40:58.000Z",
+    "customerId": "CUS-121",
+    "customerName": "Zahra Wibowo",
+    "email": "zahra.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1293",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1204",
+    "ts": "2026-11-27T04:41:25.000Z",
+    "customerId": "CUS-133",
+    "customerName": "Teguh Utama",
+    "email": "teguh.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 299,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1368",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1205",
+    "ts": "2026-11-27T04:43:41.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Bella Anggraini",
+    "email": "bella.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1277",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1206",
+    "ts": "2026-11-27T04:46:01.000Z",
+    "customerId": "CUS-144",
+    "customerName": "Candra Utama",
+    "email": "candra.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 1028,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1371",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1207",
+    "ts": "2026-11-27T04:46:55.000Z",
+    "customerId": "CUS-102",
+    "customerName": "Gita Maharani",
+    "email": "gita.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1206",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1208",
+    "ts": "2026-11-27T04:48:51.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Raka Firmansyah",
+    "email": "raka.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 628,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Palembang",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1127",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1209",
+    "ts": "2026-11-27T04:50:34.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Candra Sari",
+    "email": "candra.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1051",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1210",
+    "ts": "2026-11-27T04:51:20.000Z",
+    "customerId": "CUS-133",
+    "customerName": "Yoga Saputra",
+    "email": "yoga.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "card-amex",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1232",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1211",
+    "ts": "2026-11-27T04:52:58.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Sari Wibowo",
+    "email": "sari.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1300",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1212",
+    "ts": "2026-11-27T04:55:21.000Z",
+    "customerId": "CUS-137",
+    "customerName": "Dewi Nugraha",
+    "email": "dewi.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      },
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 537,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1183",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1213",
+    "ts": "2026-11-27T04:55:57.000Z",
+    "customerId": "CUS-100",
+    "customerName": "Eka Putri",
+    "email": "eka.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 597,
+    "paymentMethod": "card-visa",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1006",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1214",
+    "ts": "2026-11-27T04:56:49.000Z",
+    "customerId": "CUS-120",
+    "customerName": "Citra Setiawan",
+    "email": "citra.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1310",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1215",
+    "ts": "2026-11-27T04:57:59.000Z",
+    "customerId": "CUS-119",
+    "customerName": "Citra Kusuma",
+    "email": "citra.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 129,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1316",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1216",
+    "ts": "2026-11-27T05:00:10.000Z",
+    "customerId": "CUS-128",
+    "customerName": "Oscar Putri",
+    "email": "oscar.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      },
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 508,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1003",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1217",
+    "ts": "2026-11-27T05:02:30.000Z",
+    "customerId": "CUS-138",
+    "customerName": "Zahra Kusuma",
+    "email": "zahra.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 368,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1270",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1218",
+    "ts": "2026-11-27T05:03:36.000Z",
+    "customerId": "CUS-152",
+    "customerName": "Fitri Utama",
+    "email": "fitri.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 119,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1347",
+    "priorOrders": 10,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1219",
+    "ts": "2026-11-27T05:05:19.000Z",
+    "customerId": "CUS-153",
+    "customerName": "Putri Maharani",
+    "email": "putri.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1375",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1220",
+    "ts": "2026-11-27T05:06:13.000Z",
+    "customerId": "CUS-125",
+    "customerName": "Sari Prasetyo",
+    "email": "sari.prasetyo@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 608,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1124",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1221",
+    "ts": "2026-11-27T05:08:35.000Z",
+    "customerId": "CUS-134",
+    "customerName": "Candra Sari",
+    "email": "candra.sari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1004",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1222",
+    "ts": "2026-11-27T05:09:57.000Z",
+    "customerId": "CUS-148",
+    "customerName": "Kirana Maharani",
+    "email": "kirana.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1388",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1223",
+    "ts": "2026-11-27T05:11:23.000Z",
+    "customerId": "CUS-129",
+    "customerName": "Fitri Rahmawati",
+    "email": "fitri.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1224",
+    "ts": "2026-11-27T05:13:18.000Z",
+    "customerId": "CUS-148",
+    "customerName": "Citra Nugraha",
+    "email": "citra.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1091",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1225",
+    "ts": "2026-11-27T05:15:03.000Z",
+    "customerId": "CUS-152",
+    "customerName": "Oscar Prasetyo",
+    "email": "oscar.prasetyo@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1208",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1226",
+    "ts": "2026-11-27T05:16:59.000Z",
+    "customerId": "CUS-139",
+    "customerName": "Oscar Anggraini",
+    "email": "oscar.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1264",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1227",
+    "ts": "2026-11-27T05:17:41.000Z",
+    "customerId": "CUS-109",
+    "customerName": "Intan Setiawan",
+    "email": "intan.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 174,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1042",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1228",
+    "ts": "2026-11-27T05:19:58.000Z",
+    "customerId": "CUS-104",
+    "customerName": "Gita Maharani",
+    "email": "gita.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1381",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1229",
+    "ts": "2026-11-27T05:21:06.000Z",
+    "customerId": "CUS-129",
+    "customerName": "Maya Nugroho",
+    "email": "maya.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-amex",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1397",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1230",
+    "ts": "2026-11-27T05:23:02.000Z",
+    "customerId": "CUS-113",
+    "customerName": "Wahyu Putri",
+    "email": "wahyu.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1089",
+    "priorOrders": 3,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1231",
+    "ts": "2026-11-27T05:24:16.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Dewi Utama",
+    "email": "dewi.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Surabaya",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1393",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1232",
+    "ts": "2026-11-27T05:26:28.000Z",
+    "customerId": "CUS-147",
+    "customerName": "Wahyu Rahmawati",
+    "email": "wahyu.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1097",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1233",
+    "ts": "2026-11-27T05:27:18.000Z",
+    "customerId": "CUS-119",
+    "customerName": "Citra Anggraini",
+    "email": "citra.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1374",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1234",
+    "ts": "2026-11-27T05:29:23.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Andre Kusuma",
+    "email": "andre.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 208,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1102",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1235",
+    "ts": "2026-11-27T05:30:25.000Z",
+    "customerId": "CUS-148",
+    "customerName": "Candra Lestari",
+    "email": "candra.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1208",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1236",
+    "ts": "2026-11-27T05:31:22.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Erlang Anggraini",
+    "email": "erlang.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 299,
+    "paymentMethod": "card-amex",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1107",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1237",
+    "ts": "2026-11-27T05:33:29.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Dewi Putri",
+    "email": "dewi.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 119,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1220",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1238",
+    "ts": "2026-11-27T05:35:21.000Z",
+    "customerId": "CUS-110",
+    "customerName": "Erlang Handayani",
+    "email": "erlang.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1098",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1239",
+    "ts": "2026-11-27T05:37:42.000Z",
+    "customerId": "CUS-115",
+    "customerName": "Lutfi Nugroho",
+    "email": "lutfi.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      }
+    ],
+    "total": 39,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1030",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1240",
+    "ts": "2026-11-27T05:38:32.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Dimas Kusuma",
+    "email": "dimas.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1108",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1241",
+    "ts": "2026-11-27T05:39:34.000Z",
+    "customerId": "CUS-145",
+    "customerName": "Eka Lestari",
+    "email": "eka.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 458,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1322",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1242",
+    "ts": "2026-11-27T05:40:12.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Fitri Pratama",
+    "email": "fitri.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 279,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1217",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1243",
+    "ts": "2026-11-27T05:40:45.000Z",
+    "customerId": "CUS-135",
+    "customerName": "Joko Utama",
+    "email": "joko.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "card-visa",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1136",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1244",
+    "ts": "2026-11-27T05:41:31.000Z",
+    "customerId": "CUS-131",
+    "customerName": "Gita Setiawan",
+    "email": "gita.setiawan@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 299,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1180",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1245",
+    "ts": "2026-11-27T05:43:22.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Eka Utama",
+    "email": "eka.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 238,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1396",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1246",
+    "ts": "2026-11-27T05:44:05.000Z",
+    "customerId": "CUS-124",
+    "customerName": "Dewi Firmansyah",
+    "email": "dewi.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1227",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1247",
+    "ts": "2026-11-27T05:45:44.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Erlang Wulandari",
+    "email": "erlang.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 1028,
+    "paymentMethod": "card-amex",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1375",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1248",
+    "ts": "2026-11-27T05:46:28.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Maya Rahmawati",
+    "email": "maya.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "card-visa",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1039",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1249",
+    "ts": "2026-11-27T05:48:36.000Z",
+    "customerId": "CUS-152",
+    "customerName": "Bella Wibowo",
+    "email": "bella.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1286",
+    "priorOrders": 3,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1250",
+    "ts": "2026-11-27T05:50:35.000Z",
+    "customerId": "CUS-116",
+    "customerName": "Dimas Nugroho",
+    "email": "dimas.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1321",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1251",
+    "ts": "2026-11-27T05:50:58.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Alya Hidayat",
+    "email": "alya.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1058",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1252",
+    "ts": "2026-11-27T05:52:23.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Erlang Saputra",
+    "email": "erlang.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1262",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1253",
+    "ts": "2026-11-27T05:53:31.000Z",
+    "customerId": "CUS-123",
+    "customerName": "Bella Lestari",
+    "email": "bella.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1341",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1254",
+    "ts": "2026-11-27T05:54:28.000Z",
+    "customerId": "CUS-127",
+    "customerName": "Intan Putri",
+    "email": "intan.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1215",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1255",
+    "ts": "2026-11-27T05:55:04.000Z",
+    "customerId": "CUS-139",
+    "customerName": "Candra Lestari",
+    "email": "candra.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "card-amex",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1177",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1256",
+    "ts": "2026-11-27T05:56:06.000Z",
+    "customerId": "CUS-110",
+    "customerName": "Lutfi Anggraini",
+    "email": "lutfi.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1236",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1257",
+    "ts": "2026-11-27T05:58:24.000Z",
+    "customerId": "CUS-153",
+    "customerName": "Zahra Kusuma",
+    "email": "zahra.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 45,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1196",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1258",
+    "ts": "2026-11-27T06:00:19.000Z",
+    "customerId": "CUS-128",
+    "customerName": "Putri Utama",
+    "email": "putri.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1338",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1259",
+    "ts": "2026-11-27T06:01:28.000Z",
+    "customerId": "CUS-145",
+    "customerName": "Alya Utama",
+    "email": "alya.utama@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1381",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1260",
+    "ts": "2026-11-27T06:02:24.000Z",
+    "customerId": "CUS-116",
+    "customerName": "Raka Putri",
+    "email": "raka.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-amex",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1261",
+    "ts": "2026-11-27T06:03:34.000Z",
+    "customerId": "CUS-140",
+    "customerName": "Fajar Wibowo",
+    "email": "fajar.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      },
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 248,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1215",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1262",
+    "ts": "2026-11-27T06:04:36.000Z",
+    "customerId": "CUS-123",
+    "customerName": "Wahyu Kusuma",
+    "email": "wahyu.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 299,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1313",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1263",
+    "ts": "2026-11-27T06:06:49.000Z",
+    "customerId": "CUS-119",
+    "customerName": "Oscar Maharani",
+    "email": "oscar.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1255",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1264",
+    "ts": "2026-11-27T06:07:19.000Z",
+    "customerId": "CUS-131",
+    "customerName": "Sari Putri",
+    "email": "sari.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 388,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1238",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1265",
+    "ts": "2026-11-27T06:09:46.000Z",
+    "customerId": "CUS-118",
+    "customerName": "Utami Rahmawati",
+    "email": "utami.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 75,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1357",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1266",
+    "ts": "2026-11-27T06:10:19.000Z",
+    "customerId": "CUS-130",
+    "customerName": "Fajar Handayani",
+    "email": "fajar.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1361",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1267",
+    "ts": "2026-11-27T06:11:59.000Z",
+    "customerId": "CUS-133",
+    "customerName": "Fitri Anggraini",
+    "email": "fitri.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1120",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1268",
+    "ts": "2026-11-27T06:13:19.000Z",
+    "customerId": "CUS-142",
+    "customerName": "Oscar Nugraha",
+    "email": "oscar.nugraha@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1060",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1269",
+    "ts": "2026-11-27T06:14:24.000Z",
+    "customerId": "CUS-143",
+    "customerName": "Bella Saputra",
+    "email": "bella.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 164,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1353",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1270",
+    "ts": "2026-11-27T06:16:09.000Z",
+    "customerId": "CUS-127",
+    "customerName": "Bella Anggraini",
+    "email": "bella.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-CONSOLE",
+        "name": "Game Console",
+        "qty": 1,
+        "price": 499
+      }
+    ],
+    "total": 499,
+    "paymentMethod": "card-amex",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1059",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1271",
+    "ts": "2026-11-27T06:18:35.000Z",
+    "customerId": "CUS-120",
+    "customerName": "Citra Putri",
+    "email": "citra.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      }
+    ],
+    "total": 185,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1141",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1272",
+    "ts": "2026-11-27T06:19:35.000Z",
+    "customerId": "CUS-151",
+    "customerName": "Bella Wibowo",
+    "email": "bella.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 329,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1306",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1273",
+    "ts": "2026-11-27T06:21:25.000Z",
+    "customerId": "CUS-110",
+    "customerName": "Fajar Wulandari",
+    "email": "fajar.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 109,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1281",
+    "priorOrders": 10,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1274",
+    "ts": "2026-11-27T06:22:00.000Z",
+    "customerId": "CUS-142",
+    "customerName": "Andre Lestari",
+    "email": "andre.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Surabaya",
+    "shippingCity": "Surabaya",
+    "deviceId": "DEV-1230",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1275",
+    "ts": "2026-11-27T06:22:53.000Z",
+    "customerId": "CUS-157",
+    "customerName": "Kirana Ramadhan",
+    "email": "kirana.ramadhan@example.test",
+    "items": [
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      },
+      {
+        "sku": "SKU-MON27",
+        "name": "Monitor 27in QHD",
+        "qty": 1,
+        "price": 279
+      }
+    ],
+    "total": 354,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1286",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1276",
+    "ts": "2026-11-27T06:23:30.000Z",
+    "customerId": "CUS-146",
+    "customerName": "Wahyu Kusuma",
+    "email": "wahyu.kusuma@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1146",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1277",
+    "ts": "2026-11-27T06:24:09.000Z",
+    "customerId": "CUS-140",
+    "customerName": "Dimas Handayani",
+    "email": "dimas.handayani@example.test",
+    "items": [
+      {
+        "sku": "SKU-SPK",
+        "name": "Soundbar Speaker",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "total": 159,
+    "paymentMethod": "card-amex",
+    "billingCity": "Denpasar",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1076",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1278",
+    "ts": "2026-11-27T06:26:18.000Z",
+    "customerId": "CUS-140",
+    "customerName": "Citra Maharani",
+    "email": "citra.maharani@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1378",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1279",
+    "ts": "2026-11-27T06:27:50.000Z",
+    "customerId": "CUS-111",
+    "customerName": "Hendra Nugroho",
+    "email": "hendra.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-SHOES",
+        "name": "Running Shoes",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "total": 95,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1048",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1280",
+    "ts": "2026-11-27T06:28:15.000Z",
+    "customerId": "CUS-107",
+    "customerName": "Kirana Anggraini",
+    "email": "kirana.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1339",
+    "priorOrders": 11,
+    "priorChargebacks": 1
+  },
+  {
+    "id": "ORD-1281",
+    "ts": "2026-11-27T06:30:16.000Z",
+    "customerId": "CUS-138",
+    "customerName": "Hendra Putri",
+    "email": "hendra.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "card-visa",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1286",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1282",
+    "ts": "2026-11-27T06:32:20.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Bella Wibowo",
+    "email": "bella.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "card-amex",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1248",
+    "priorOrders": 7,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1283",
+    "ts": "2026-11-27T06:33:45.000Z",
+    "customerId": "CUS-154",
+    "customerName": "Bella Putri",
+    "email": "bella.putri@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "card-visa",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1171",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1284",
+    "ts": "2026-11-27T06:35:28.000Z",
+    "customerId": "CUS-144",
+    "customerName": "Andre Hidayat",
+    "email": "andre.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      },
+      {
+        "sku": "SKU-SSD1T",
+        "name": "SSD 1TB NVMe",
+        "qty": 1,
+        "price": 109
+      }
+    ],
+    "total": 438,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1237",
+    "priorOrders": 6,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1285",
+    "ts": "2026-11-27T06:36:17.000Z",
+    "customerId": "CUS-116",
+    "customerName": "Gita Lestari",
+    "email": "gita.lestari@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-amex",
+    "billingCity": "Medan",
+    "shippingCity": "Medan",
+    "deviceId": "DEV-1388",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1286",
+    "ts": "2026-11-27T06:36:40.000Z",
+    "customerId": "CUS-101",
+    "customerName": "Candra Hidayat",
+    "email": "candra.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "card-visa",
+    "billingCity": "Palembang",
+    "shippingCity": "Palembang",
+    "deviceId": "DEV-1203",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1287",
+    "ts": "2026-11-27T06:38:47.000Z",
+    "customerId": "CUS-141",
+    "customerName": "Zahra Firmansyah",
+    "email": "zahra.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1154",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1288",
+    "ts": "2026-11-27T06:39:31.000Z",
+    "customerId": "CUS-134",
+    "customerName": "Vina Pratama",
+    "email": "vina.pratama@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAP14",
+        "name": "Laptop 14in 16GB",
+        "qty": 1,
+        "price": 899
+      },
+      {
+        "sku": "SKU-HDPX",
+        "name": "Noise-Cancel Headphones",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "total": 1028,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1086",
+    "priorOrders": 0,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1289",
+    "ts": "2026-11-27T06:41:29.000Z",
+    "customerId": "CUS-110",
+    "customerName": "Citra Wibowo",
+    "email": "citra.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-DRONE",
+        "name": "Camera Drone Mini",
+        "qty": 1,
+        "price": 399
+      }
+    ],
+    "total": 399,
+    "paymentMethod": "card-visa",
+    "billingCity": "Denpasar",
+    "shippingCity": "Denpasar",
+    "deviceId": "DEV-1088",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1290",
+    "ts": "2026-11-27T06:43:18.000Z",
+    "customerId": "CUS-153",
+    "customerName": "Utami Wulandari",
+    "email": "utami.wulandari@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "total": 119,
+    "paymentMethod": "card-visa",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1254",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1291",
+    "ts": "2026-11-27T06:44:26.000Z",
+    "customerId": "CUS-128",
+    "customerName": "Intan Prasetyo",
+    "email": "intan.prasetyo@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "ewallet-gopay",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1048",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1292",
+    "ts": "2026-11-27T06:44:56.000Z",
+    "customerId": "CUS-143",
+    "customerName": "Erlang Prasetyo",
+    "email": "erlang.prasetyo@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      },
+      {
+        "sku": "SKU-TAB11",
+        "name": "Tablet 11in",
+        "qty": 1,
+        "price": 329
+      }
+    ],
+    "total": 418,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Makassar",
+    "shippingCity": "Makassar",
+    "deviceId": "DEV-1064",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1293",
+    "ts": "2026-11-27T06:47:03.000Z",
+    "customerId": "CUS-102",
+    "customerName": "Joko Hidayat",
+    "email": "joko.hidayat@example.test",
+    "items": [
+      {
+        "sku": "SKU-LAMP",
+        "name": "Smart Lamp Duo",
+        "qty": 1,
+        "price": 39
+      },
+      {
+        "sku": "SKU-VAC",
+        "name": "Robot Vacuum",
+        "qty": 1,
+        "price": 299
+      }
+    ],
+    "total": 338,
+    "paymentMethod": "ewallet-ovo",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1356",
+    "priorOrders": 2,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1294",
+    "ts": "2026-11-27T06:49:13.000Z",
+    "customerId": "CUS-129",
+    "customerName": "Maya Nugroho",
+    "email": "maya.nugroho@example.test",
+    "items": [
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 249,
+    "paymentMethod": "card-visa",
+    "billingCity": "Jakarta",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1244",
+    "priorOrders": 1,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1295",
+    "ts": "2026-11-27T06:50:45.000Z",
+    "customerId": "CUS-127",
+    "customerName": "Fitri Wibowo",
+    "email": "fitri.wibowo@example.test",
+    "items": [
+      {
+        "sku": "SKU-TV55",
+        "name": "LED TV 55in 4K",
+        "qty": 1,
+        "price": 549
+      }
+    ],
+    "total": 549,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Semarang",
+    "shippingCity": "Semarang",
+    "deviceId": "DEV-1200",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1296",
+    "ts": "2026-11-27T06:53:01.000Z",
+    "customerId": "CUS-136",
+    "customerName": "Oscar Rahmawati",
+    "email": "oscar.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-KBD",
+        "name": "Mechanical Keyboard",
+        "qty": 1,
+        "price": 89
+      }
+    ],
+    "total": 89,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-1061",
+    "priorOrders": 4,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1297",
+    "ts": "2026-11-27T06:54:13.000Z",
+    "customerId": "CUS-122",
+    "customerName": "Fitri Anggraini",
+    "email": "fitri.anggraini@example.test",
+    "items": [
+      {
+        "sku": "SKU-MOUSE",
+        "name": "Wireless Mouse",
+        "qty": 1,
+        "price": 45
+      },
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 294,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Bandung",
+    "shippingCity": "Bandung",
+    "deviceId": "DEV-BURST",
+    "priorOrders": 5,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1298",
+    "ts": "2026-11-27T06:55:12.000Z",
+    "customerId": "CUS-150",
+    "customerName": "Bella Rahmawati",
+    "email": "bella.rahmawati@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-WATCH",
+        "name": "Smartwatch Series 8",
+        "qty": 1,
+        "price": 249
+      }
+    ],
+    "total": 368,
+    "paymentMethod": "bank-transfer",
+    "billingCity": "Batam",
+    "shippingCity": "Batam",
+    "deviceId": "DEV-1241",
+    "priorOrders": 8,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1299",
+    "ts": "2026-11-27T06:56:08.000Z",
+    "customerId": "CUS-129",
+    "customerName": "Dewi Saputra",
+    "email": "dewi.saputra@example.test",
+    "items": [
+      {
+        "sku": "SKU-AIRFRY",
+        "name": "Air Fryer XL",
+        "qty": 1,
+        "price": 119
+      },
+      {
+        "sku": "SKU-BAG",
+        "name": "Travel Backpack",
+        "qty": 1,
+        "price": 75
+      }
+    ],
+    "total": 194,
+    "paymentMethod": "card-amex",
+    "billingCity": "Yogyakarta",
+    "shippingCity": "Yogyakarta",
+    "deviceId": "DEV-1139",
+    "priorOrders": 9,
+    "priorChargebacks": 0
+  },
+  {
+    "id": "ORD-1300",
+    "ts": "2026-11-27T06:57:00.000Z",
+    "customerId": "CUS-103",
+    "customerName": "Oscar Firmansyah",
+    "email": "oscar.firmansyah@example.test",
+    "items": [
+      {
+        "sku": "SKU-CHAIR",
+        "name": "Ergonomic Chair",
+        "qty": 1,
+        "price": 219
+      }
+    ],
+    "total": 219,
+    "paymentMethod": "card-mastercard",
+    "billingCity": "Denpasar",
+    "shippingCity": "Jakarta",
+    "deviceId": "DEV-1109",
+    "priorOrders": 11,
+    "priorChargebacks": 0
+  }
+]

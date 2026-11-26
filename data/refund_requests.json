@@ -1,0 +1,86 @@
+[
+  {
+    "id": "REQ-501",
+    "orderId": "ORD-1017",
+    "amount": 238,
+    "reason": "Customer reports the SSD was dead on arrival; asks for a refund instead of a replacement.",
+    "channel": "email"
+  },
+  {
+    "id": "REQ-502",
+    "orderId": "ORD-1020",
+    "amount": 1232,
+    "reason": "Customer says the laptop was ordered twice by mistake and asks to refund the full order.",
+    "channel": "chat"
+  },
+  {
+    "id": "REQ-503",
+    "orderId": "ORD-1031",
+    "amount": 549,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "email"
+  },
+  {
+    "id": "REQ-504",
+    "orderId": "ORD-1032",
+    "amount": 75,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "chat"
+  },
+  {
+    "id": "REQ-505",
+    "orderId": "ORD-1033",
+    "amount": 399,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "chat"
+  },
+  {
+    "id": "REQ-506",
+    "orderId": "ORD-1034",
+    "amount": 549,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "email"
+  },
+  {
+    "id": "REQ-507",
+    "orderId": "ORD-1035",
+    "amount": 399,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "email"
+  },
+  {
+    "id": "REQ-508",
+    "orderId": "ORD-1036",
+    "amount": 374,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "email"
+  },
+  {
+    "id": "REQ-509",
+    "orderId": "ORD-1037",
+    "amount": 408,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "phone"
+  },
+  {
+    "id": "REQ-510",
+    "orderId": "ORD-1038",
+    "amount": 549,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "phone"
+  },
+  {
+    "id": "REQ-511",
+    "orderId": "ORD-1039",
+    "amount": 424,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "phone"
+  },
+  {
+    "id": "REQ-512",
+    "orderId": "ORD-1040",
+    "amount": 418,
+    "reason": "Customer refund request (synthetic).",
+    "channel": "phone"
+  }
+]
